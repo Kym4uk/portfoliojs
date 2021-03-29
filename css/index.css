@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Blinker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Blinker&family=Shadows+Into+Light&display=swap");
+:root {
+  font-size: 18px;
+  font-family: "Blinker", sans-serif;
+  --maincolor: #ffffff;
+  --additionallycolor: #00d646;
+  --additionallytwocolor: #bec7d5;
+  --backgroundcolor: #333b50;
+  --headcolor: #6f7a8a;
+  --vrcolor: #0fd853;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: auto;
+  margin: auto;
+  background-color: var(--backgroundcolor);
+}
+header {
+  background-image: url(../img/title/titleheader.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 960px;
+  width: 100%;
+}
+/* .iam {
+  left: 260px;
+
+  width: 539px;
+  height: 290px;
+  color: var(--maincolor);
+  font-family: "Blinker", sans-serif;
+  font-size: 95px;
+  font-weight: bold;
+} */
+h1 {
+  display: block;
+
+  width: 539px;
+  height: 290px;
+  color: var(--maincolor);
+  font-family: "Blinker", sans-serif;
+  font-size: 65px;
+  font-weight: bold;
+}
+a {
+  color: var(--additionallycolor);
+}
+
+.punctuationmark {
+  color: var(--additionallycolor);
+}
+h2 {
+  font-size: 42px;
+  line-height: 1.3em;
+  color: var(--maincolor);
+}
+.numbercolor {
+  color: var(--headcolor);
+}
+h3 {
+  width: 466px;
+  height: 88px;
+  font-size: 24px;
+  line-height: 1.8em;
+  color: var(--maincolor);
+}
+li {
+  list-style: none;
+}
+
+.borderone {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border: 5px;
+  width: 820px;
+  height: 670px;
+  background-color: var(--additionallytwocolor);
+}
+.main-p {
+  font-family: "Blinker", sans-serif;
+  font-size: 15px;
+  line-height: 2.5em;
+  color: var(--maincolor);
+}
+.button-hover {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+/* .fixed { 
+  position: fixed;
+  top: 480px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+} */
+.myprofesional {
+  background-image: url(/img/title/titlemain.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1250px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+.profesional-list {
+  font-family: "Blinker", sans-serif;
+  font-size: 25px;
+  line-height: 2.8em;
+  color: var(--backgroundcolor);
+}
+.seemore {
+  color: var(--additionallycolor);
+  text-decoration: none;
+}
+.carousel-inner {
+  height: 720px;
+}
+.carousel-inner img {
+  transform: translateY(-9%);
+  width: 100%;
+  height: 100%;
+}
+.bar {
+  background: var(--additionallycolor);
+  display: block;
+  height: 12px;
+  width: 450px;
+  border: 1px solid;
+  overflow: hidden;
+  box-shadow: 0 0 10px #4caf50;
+}
+.bar span {
+  height: 12px;
+  float: left;
+  background: lightgrey;
+}
+.wordpress {
+  width: 75%;
+  animation: wordpress 2.5s;
+}
+@keyframes wordpress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+.drupal {
+  width: 70%;
+  animation: drupal 2s;
+}
+@keyframes drupal {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+.wix {
+  width: 95%;
+  animation: wix 2s;
+}
+@keyframes wix {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+.photoshop {
+  width: 85%;
+  animation: photoshop 2s;
+}
+@keyframes photoshop {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+.illustrator {
+  width: 80%;
+  animation: illustrator 2s;
+}
+@keyframes illustrator {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+.javascript {
+  width: 85%;
+  animation: javascript 2s;
+}
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+.htmlcss {
+  width: 80%;
+  animation: htmlcss 2s;
+}
+@keyframes htmlcss {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+/* .vrline {
+  display: inline;
+  height: 1020px;
+  margin: 10px;
+  border-left: 2px solid;
+  color: var(--vrcolor); 
+} */
+.myexperiance {
+  background-image: url(/portfoliocss-gh-pages/img/title/titlemain.png);
+  width: 100%;
+  height: 1909px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.vrline {
+  background: var(--vrcolor);
+  width: 3px;
+  height: 170%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.mycontact {
+  background-image: url(/portfoliocss-gh-pages/img/title/titlefuter.png);
+}
